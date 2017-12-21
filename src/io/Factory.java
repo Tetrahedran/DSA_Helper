@@ -5,7 +5,6 @@ import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.input.SAXBuilder;
 
-import javax.print.Doc;
 import java.util.List;
 
 /**
@@ -14,13 +13,13 @@ import java.util.List;
  * @version 0.1
  */
 public class Factory {
-    public static final String ARMOR_FILE = "files/armor.xml";
-    public static final String FIGHTER_FILE = "files/fighters.xml";
-    public static final String MERCHANT_FILE = "files/merchants.xml";
-    public static final String MISSION_FILE = "files/missions.xml";
-    public static final String STUFF_FILE = "filed/stuff.xml";
-    public static final String TALKER_FILE = "files/talkers.xml";
-    public static final String WEAPON_FILE = "files/weapons.xml";
+    private static final String ARMOR_FILE = "files/armor.xml";
+    private static final String FIGHTER_FILE = "files/fighters.xml";
+    private static final String MERCHANT_FILE = "files/merchants.xml";
+    private static final String MISSION_FILE = "files/missions.xml";
+    private static final String STUFF_FILE = "filed/stuff.xml";
+    private static final String TALKER_FILE = "files/talkers.xml";
+    private static final String WEAPON_FILE = "files/weapons.xml";
 
     private Factory(){
     }
